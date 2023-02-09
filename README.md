@@ -29,7 +29,8 @@ Full configuration (showing all possible fields - any combinations of fields is 
     "MQTTTLS" : true,
     "MQTTQoS" : 0,
     "PolicyAboutRegisterStartOfPrint" : "FIRST_MESSAGE_TIMESTAMP"
-}```
+}
+```
 
 ### Available fields
 
