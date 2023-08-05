@@ -6,8 +6,7 @@ IN PROGRESS
 
 Example of generated .CSV file : 
 
-Example of reportings :
-
+![](bambu-lab-observer-csv-example.png)
 
 ## Download and installation
 
@@ -20,6 +19,7 @@ Just grab the latest (pre-)release
 ### Installation
 
 - Pick-up the proper binary related to your hardware (regular PC (intel/amd x86) = `amd64`, raspberry pi = `arm`, ...) from the downloaded archive
+  ![](bambu-lab-observer-distribution-zip-content.png)
 - Setup the configuration file (see next chapter)
 - Just launch the tool through `bambu-lab-observer` / `bambu-lab-observer.exe`
 
