@@ -1,7 +1,27 @@
 # bambu-lab-observer
-Bambu Lab observer, receiving events from Bambu Lab printers and building a .CSV file listing all printed timings
 
 IN PROGRESS
+
+`bambu-lab-observer` is a small program receiving events sent by Bambu Lab printers over MQTT, and continuously building a .CSV file listing all printed item with timings spent on each print.
+
+Example of generated .CSV file : 
+
+Example of reportings :
+
+
+## Download and installation
+
+### Download
+
+Just grab the latest (pre-)release
+- is only working for old firmwares
+- is working for newer firmwares after 1.06.00
+
+### Installation
+
+- Pick-up the proper binary related to your hardware (regular PC (intel/amd x86) = `amd64`, raspberry pi = `arm`, ...) from the downloaded archive
+- Setup the configuration file (see next chapter)
+- Just launch the tool through `bambu-lab-observer` / `bambu-lab-observer.exe`
 
 ## Configuration
 
@@ -83,3 +103,11 @@ For each printer :
 | `Disabled`                  | No        | `false`                   | May be used to temporarily skip one printer without removing its configuration                                             |
 | `Comment`                   | No        | -                         | Not used but may allow to add any string inside the configuration of one printer                   |
 
+
+
+## TODO 
+
+- [ ] Push/publish the source code (currently under stabilization)
+- [ ] Try to monitor the amount of filament used for each part
+- [ ] Add some notifications mechanizms through rules
+- [ ] Build in some way (.JS, XLS, ...) a simple reporting with some graphs (number of prints over the weeks, running times, ...)
