@@ -12,9 +12,9 @@ Example of generated .CSV file :
 
 ### Download
 
-Just grab the latest (pre-)release
-- is only working for old firmwares
-- is working for newer firmwares after 1.06.00
+Just grab the latest (pre-)release (you need to be logged into GITHUB to see pre-releases) : 
+- `1.0.0-SNAPSHOT` is only working for old firmwares < 1.06.00 (2023-08-04)
+- `1.0.1-SNAPSHOT` is working for newer firmwares >= 1.06.00 (2023-08-04)
 
 ### Installation
 
